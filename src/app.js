@@ -52,12 +52,14 @@ app.get('/weather', (req, res) => {
     geocode(req.query.address, (error, {longitude, latitude, location} = {} ) => {
         if(error)
             return res.send({ error })
-        forecast(longitude, latitude, (error, {temperature, precip} = {} ) => {
+        forecast(longitude, latitude, (error, {temperature, precip, humidity, weather} = {} ) => {
             if(error)
                 return res.send({ error })
             res.send({
                 precip,
+                humidity,
                 temperature,
+                weather,
                 address: req.query.address,
                 location
             })

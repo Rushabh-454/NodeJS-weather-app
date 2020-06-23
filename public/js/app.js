@@ -17,8 +17,10 @@ weatherForm.addEventListener('submit', (e) => {
             if(data.error)
                 errorMsg.textContent = data.error
             else{
-                const forecast = 'Precip: '+ data.precip +
+                const forecast = 'Precip: ' + data.precip +
+                            '<br>Humidty: ' + data.humidity +
                             '<br>Temperature: ' + data.temperature +
+                            '<br>Weather description: ' + data.weather + 
                             '<br>Address: ' + data.address + 
                             '<br>Location: ' + data.location
                 dataMsg.innerHTML = forecast
