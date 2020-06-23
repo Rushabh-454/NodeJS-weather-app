@@ -1,6 +1,3 @@
-//const { response } = require("express")
-
-console.log('Client Side Javascript Loaded!')
 
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
