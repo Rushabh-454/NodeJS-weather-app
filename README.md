@@ -8,7 +8,7 @@ Convert location to coordinates(using API) - [Mapbox](http://mapbox.com/)
 
 ## Packages
 
-Run `npm init` `to install all the required packages.
+Run `npm init` to install all the required packages.
 
 ## Installation
 
