@@ -6,7 +6,7 @@ https://rushabh-live-weather-app.herokuapp.com/
 
 This is a simple weather app that lets you check the weather details of a city.
 
-This website is hosted on [Heroku](https://www.heroku.com/)
+This website is hosted on [Heroku](https://www.heroku.com/).
 
 ## APIs Used
 
