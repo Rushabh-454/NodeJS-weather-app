@@ -2,9 +2,16 @@
 
 https://rushabh-live-weather-app.herokuapp.com/
 
-Weather API - [Weatherstack](https://weatherstack.com/)
+## Description
 
-Convert location to coordinates(using API) - [Mapbox](http://mapbox.com/)
+This is a simple weather app that lets you check the weather details of a city.
+
+This website is hosted on [Heroku](https://www.heroku.com/)
+
+## APIs Used
+
++ Weather API - [Weatherstack](https://weatherstack.com/)
++ Convert location to coordinates and vice versa - [Mapbox](http://mapbox.com/)
 
 ## Packages
 
