@@ -1,7 +1,7 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://rushabh-live-weather-app.herokuapp.com/",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
@@ -14,5 +14,13 @@
     "hbs": "^4.1.1",
     "nodemon": "^2.0.4",
     "request": "^2.88.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rushabh-454/NodeJS-weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rushabh-454/NodeJS-weather-app/issues"
+  },
+  "homepage": "https://github.com/Rushabh-454/NodeJS-weather-app#readme"
 }
