@@ -15,7 +15,7 @@ This website is hosted on [Heroku](https://www.heroku.com/).
 
 ## Packages
 
-Run `npm init` to install all the required packages.
+Run `npm install` to install all the required packages.
 
 ## Installation
 
